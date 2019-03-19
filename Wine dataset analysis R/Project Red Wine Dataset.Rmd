@@ -1,8 +1,7 @@
-```{r global_options, echo=FALSE}
+```{r global_options, include=FALSE}
 library("knitr")
-knitr::opts_chunk$set(fig.width=7,fig.height=6,fig.path='Figs/',
-                      fig.align='center',tidy=TRUE,
-                      echo=FALSE,warning=FALSE,message=FALSE)
+knitr::opts_chunk$set( fig.width=7,fig.height=6,fig.path='Figs/',
+                      fig.align='center',tidy=TRUE, echo =TRUE, message = FALSE, warning=FALSE)
 ```
 
 #Red Wine Quality Exploration
